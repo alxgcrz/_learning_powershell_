@@ -1,5 +1,63 @@
 # PowerShell
 
+... EN DESARROLLO ...
+
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+  <a href="https://alxgcrz.com" target="_blank">
+    <img src="https://alxgcrz.com/assets/asset_06_v1.png" alt="En desarrollo" title="En desarrollo" width="40%">
+  </a>
+</p>
+<!-- markdownlint-enable MD033 -->
+
+## Introducción
+
+**PowerShell** es una solución de automatización de tareas multiplataforma formada por un **shell de línea de comandos**, un **lenguaje de scripting** y un **marco de administración de configuración**. PowerShell está diseñado por Microsoft y funciona en Windows 10, Linux y macOS.
+
+Introducido por primera vez en 2006, PowerShell ha evolucionado hasta convertirse en una herramienta esencial para administradores de sistemas, desarrolladores y profesionales de IT.
+
+A diferencia de las interfaces tradicionales de línea de comandos, PowerShell utiliza un enfoque basado en objetos, lo que significa que las salidas de los comandos son representadas como objetos estructurados que pueden ser manipulados y filtrados de manera intuitiva. Esto proporciona una gran flexibilidad y eficiencia al realizar tareas administrativas y permite una mayor automatización de procesos.
+
+Algunas de las características de PowerShell son:
+
+- **Cmdlets**: PowerShell utiliza "_cmdlets_" (comandos pequeños) como unidades básicas de trabajo. Estos _cmdlets_ realizan funciones específicas y se pueden encadenar para crear secuencias más complejas de comandos.
+
+- **Interactividad y scripts**: Se puede utilizar PowerShell de manera interactiva en la línea de comandos o escribir scripts completos para automatizar tareas repetitivas. Los scripts permiten realizar acciones complejas con un solo comando.
+
+- **Acceso a tecnologías Microsoft**: PowerShell ofrece acceso directo a las tecnologías de Microsoft, como el Active Directory, Exchange, SharePoint y otras, facilitando la administración de entornos empresariales.
+
+- **Consola gráfica**: además de la interfaz de línea de comandos, PowerShell cuenta con una consola gráfica llamada PowerShell ISE (Integrated Scripting Environment) que facilita la creación, depuración y ejecución de scripts.
+
+- **Soporte multiplataforma**: a partir de la versión PowerShell Core, la herramienta se ha vuelto multiplataforma, lo que significa que ahora está disponible para sistemas operativos como Linux y macOS, ampliando su utilidad más allá del ecosistema Windows.
+
+- **Automatización más eficiente**: PowerShell simplifica tareas administrativas mediante la automatización de procesos, ahorrando tiempo y reduciendo posibles errores humanos.
+
+- **Consistencia**: la estructura basada en objetos y la sintaxis coherente de PowerShell contribuyen a una administración consistente y predecible de sistemas.
+
+- **Integración con .NET**: al estar construido sobre el marco .NET, PowerShell permite la integración con bibliotecas y servicios .NET, ampliando aún más sus capacidades.
+
+En resumen, PowerShell es una herramienta poderosa que ofrece una forma eficaz de administrar y automatizar tareas en entornos Windows y más allá, convirtiéndose en una herramienta esencial para profesionales de IT y administradores de sistemas.
+
+> Sección generada por ChatGPT
+
+### Windows PowerShell vs PowerShell Core
+
+**Windows PowerShell** es la implementación original de PowerShell lanzada por Microsoft junto con Windows 7 en 2009. Está diseñada específicamente para entornos Windows y utiliza el marco .NET Framework. A lo largo de los años, Windows PowerShell se convirtió en una herramienta esencial para la administración de sistemas Windows, proporcionando una interfaz de línea de comandos y un entorno de scripting robusto para la automatización de tareas.
+
+Por otro lado, **PowerShell Core** es una versión posterior y más avanzada de PowerShell que fue lanzada en 2016. La principal diferencia es que PowerShell Core es **multiplataforma**, lo que significa que puede ejecutarse no solo en sistemas operativos Windows, sino también en Linux y macOS. Además, PowerShell Core es de código abierto y se basa en el marco .NET Core, permitiendo una mayor flexibilidad y portabilidad.
+
+- **Ecosistema común**: ambas versiones comparten un conjunto básico de conceptos y cmdlets, lo que facilita la transición entre ellas. Sin embargo, hay algunas diferencias en los cmdlets y características específicas de cada versión.
+
+- **Compatibilidad**: aunque PowerShell Core es más versátil al ser multiplataforma, Windows PowerShell sigue siendo la opción predeterminada en entornos Windows tradicionales. Muchos scripts y comandos desarrollados en Windows PowerShell pueden ejecutarse en PowerShell Core, pero puede haber casos en los que se requieran ajustes debido a las diferencias de plataforma.
+
+- **Desarrollo continuo**: Microsoft ha indicado que PowerShell Core es el camino a seguir y recibirá actualizaciones continuas, mientras que Windows PowerShell está en modo de mantenimiento. A medida que evoluciona el ecosistema, se alienta a los usuarios a adoptar PowerShell Core para aprovechar las nuevas características y mejoras.
+
+En resumen, PowerShell Core representa la evolución de Windows PowerShell, siendo más versátil y adaptable a diferentes plataformas, mientras que Windows PowerShell sigue siendo relevante en entornos Windows más tradicionales. La elección entre ambas versiones dependerá de los requisitos específicos del entorno y la plataforma.
+
+> Sección generada por ChatGPT
+
+## Resumen
+
 ```powershell
 Get-ExecutionPolicy -List
 Set-ExecutionPolicy AllSigned
@@ -284,10 +342,11 @@ if (-not (Test-Path $Profile)) {
 ## Enlaces de interés
 
 - <https://learn.microsoft.com/es-es/powershell/>
-- <https://learn.microsoft.com/es-es/powershell/scripting/learn/ps101/00-introduction?view=powershell-7.3>
-- <https://www.maquinasvirtuales.eu/curso-basico-de-powershell-introduccion/>
-- <https://gist.github.com/pcgeek86/336e08d1a09e3dd1a8f0a30a9fe61c8a>
+- <https://www.powershellgallery.com/>
+- <https://code.visualstudio.com/docs/languages/powershell>
 - <https://github.com/janikvonrotz/awesome-powershell>
+- <https://gist.github.com/pcgeek86/336e08d1a09e3dd1a8f0a30a9fe61c8a>
+- <https://www.maquinasvirtuales.eu/curso-basico-de-powershell-introduccion/>
 
 ## Licencia
 

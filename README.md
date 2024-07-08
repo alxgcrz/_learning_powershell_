@@ -2,14 +2,6 @@
 
 ... EN DESARROLLO ...
 
-<!-- markdownlint-disable MD033 -->
-<p align="center">
-  <a href="https://alxgcrz.com" target="_blank">
-    <img src="https://alxgcrz.com/assets/asset_06_v1.png" alt="En desarrollo" title="En desarrollo" width="40%">
-  </a>
-</p>
-<!-- markdownlint-enable MD033 -->
-
 ## Introducción
 
 **PowerShell** es una solución de automatización de tareas multiplataforma formada por un **shell de línea de comandos**, un **lenguaje de scripting** y un **marco de administración de configuración**. PowerShell está diseñado por Microsoft y funciona en Windows 10, Linux y macOS.
@@ -40,7 +32,7 @@ En resumen, PowerShell es una herramienta poderosa que ofrece una forma eficaz d
 
 > Sección generada por ChatGPT
 
-### Windows PowerShell vs PowerShell Core
+## Windows PowerShell vs PowerShell Core
 
 **Windows PowerShell** es la implementación original de PowerShell lanzada por Microsoft junto con Windows 7 en 2009. Está diseñada específicamente para entornos Windows y utiliza el marco .NET Framework. A lo largo de los años, Windows PowerShell se convirtió en una herramienta esencial para la administración de sistemas Windows, proporcionando una interfaz de línea de comandos y un entorno de scripting robusto para la automatización de tareas.
 
@@ -339,14 +331,23 @@ if (-not (Test-Path $Profile)) {
 
 ---
 
-## Enlaces de interés
+## Referencias
 
+- <https://github.com/PowerShell/PowerShell>
 - <https://learn.microsoft.com/es-es/powershell/>
+- <https://learn.microsoft.com/es-es/training/browse/?terms=PowerShell>
+- <https://learn.microsoft.com/es-es/dotnet/>
+- <https://dotnet.microsoft.com/es-es/>
 - <https://www.powershellgallery.com/>
 - <https://code.visualstudio.com/docs/languages/powershell>
 - <https://github.com/janikvonrotz/awesome-powershell>
 - <https://gist.github.com/pcgeek86/336e08d1a09e3dd1a8f0a30a9fe61c8a>
+- <https://devblogs.microsoft.com/powershell/>
+- <https://devblogs.microsoft.com/powershell-community/>
+- <https://devblogs.microsoft.com/powershell-community/cheat-sheet-console-experience/>
+- <https://goalkicker.com/PowerShellBook/>
 - <https://www.maquinasvirtuales.eu/curso-basico-de-powershell-introduccion/>
+- <https://www.stationx.net/powershell-cheat-sheet/>
 
 ## Licencia
 

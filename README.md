@@ -1079,6 +1079,7 @@ Format-Range 2 6 # => 'a','b','g','f','e','d','c','h','i','j','k','l','m'
 ## Referencias
 
 - <https://learn.microsoft.com/es-es/powershell/>
+- <https://cheatsheets.zip/powershell>
 
 ## Licencia
 

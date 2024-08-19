@@ -4,49 +4,65 @@
 
 ## Introducción
 
-**PowerShell** es una solución de automatización de tareas multiplataforma formada por un **shell de línea de comandos**, un **lenguaje de scripting** y un **marco de administración de configuración**. PowerShell está diseñado por Microsoft y funciona en Windows, Linux y macOS.
-
-Introducido por primera vez en 2006, PowerShell ha evolucionado hasta convertirse en una herramienta esencial para administradores de sistemas, desarrolladores y profesionales de IT.
-
-A diferencia de las interfaces tradicionales de línea de comandos, PowerShell utiliza un enfoque basado en objetos, lo que significa que las salidas de los comandos son representadas como objetos estructurados que pueden ser manipulados y filtrados de manera intuitiva. Esto proporciona una gran flexibilidad y eficiencia al realizar tareas administrativas y permite una mayor automatización de procesos.
+[**PowerShell**](https://learn.microsoft.com/es-es/powershell/scripting/overview?view=powershell-7.4) es una solución de automatización de tareas multiplataforma formada por un **shell de línea de comandos**, un **lenguaje de scripting** y un **marco de administración de configuración**. Introducido por primera vez en 2006, PowerShell está diseñado por Microsoft y funciona en Windows, Linux y macOS.
 
 Algunas de las características de PowerShell son:
 
-- **Cmdlets**: PowerShell utiliza "_cmdlets_" (comandos compilados pequeños) como unidades básicas de trabajo. Estos _cmdlets_ realizan funciones específicas y se pueden encadenar para crear secuencias más complejas de comandos. Se pronuncia "command-let" y la convención de nomenclatura de los cmdlets sigue un singular formato **_Verb-Noun_** para que se puedan detectar fácilmente.
+- **Cmdlets**: PowerShell utiliza _cmdlets_ (pequeños comandos compilados) como las unidades básicas de trabajo. Estos _cmdlets_ realizan funciones específicas y pueden encadenarse para crear secuencias más complejas de comandos. Se pronuncia "command-let", y la convención de nomenclatura de los _cmdlets_ sigue un formato singular **_Verb-Noun_** para que se puedan identificar fácilmente.
 
-- **Interactividad y scripts**: Se puede utilizar PowerShell de manera interactiva en la línea de comandos o escribir scripts completos para automatizar tareas repetitivas. Los scripts permiten realizar acciones complejas con un solo comando.
+- **Interactividad y scripts**: PowerShell se puede utilizar de manera interactiva en la línea de comandos o mediante la escritura de scripts completos para automatizar tareas repetitivas. Los scripts permiten ejecutar acciones complejas con un solo comando, lo que facilita la administración y automatización.
 
-- **Acceso a tecnologías Microsoft**: PowerShell ofrece acceso directo a las tecnologías de Microsoft, como el Active Directory, Exchange, SharePoint y otras, facilitando la administración de entornos empresariales.
+- **Acceso a tecnologías de Microsoft**: PowerShell ofrece acceso directo a diversas tecnologías de Microsoft, como Active Directory, Exchange, SharePoint, y más. Esto facilita la administración de entornos empresariales de manera centralizada y eficiente.
 
-- **Consola gráfica**: además de la interfaz de línea de comandos, PowerShell cuenta con una consola gráfica llamada PowerShell ISE (Integrated Scripting Environment) que facilita la creación, depuración y ejecución de scripts.
+- **Consola gráfica**: Además de la interfaz de línea de comandos, PowerShell cuenta con una consola gráfica llamada _PowerShell ISE_ (Integrated Scripting Environment), que facilita la creación, depuración y ejecución de scripts de manera más intuitiva.
 
-- **Soporte multiplataforma**: a partir de la versión PowerShell Core, la herramienta se ha vuelto multiplataforma, lo que significa que ahora está disponible para sistemas operativos como Linux y macOS, ampliando su utilidad más allá del ecosistema Windows.
+- **Soporte multiplataforma**: A partir de PowerShell Core, la herramienta se ha vuelto multiplataforma, lo que significa que ahora está disponible para sistemas operativos como Linux y macOS, ampliando su utilidad más allá del ecosistema Windows.
 
-- **Automatización más eficiente**: PowerShell simplifica tareas administrativas mediante la automatización de procesos, ahorrando tiempo y reduciendo posibles errores humanos.
+- **Automatización eficiente**: PowerShell simplifica las tareas administrativas mediante la automatización de procesos, lo que ahorra tiempo y reduce la posibilidad de errores humanos.
 
-- **Consistencia**: la estructura basada en objetos y la sintaxis coherente de PowerShell contribuyen a una administración consistente y predecible de sistemas.
+- **Consistencia**: La estructura basada en objetos y la sintaxis coherente de PowerShell permiten una administración de sistemas consistente y predecible, lo que es esencial en entornos de TI.
 
-- **Integración con .NET**: al estar construido sobre el marco .NET, PowerShell permite la integración con bibliotecas y servicios .NET, ampliando aún más sus capacidades.
+- **Integración con .NET**: Al estar construido sobre el marco .NET, PowerShell permite la integración con bibliotecas y servicios .NET, lo que amplía significativamente sus capacidades y su flexibilidad en el desarrollo de scripts y aplicaciones.
 
 En resumen, PowerShell es una herramienta poderosa que ofrece una forma eficaz de administrar y automatizar tareas en entornos Windows y más allá, convirtiéndose en una herramienta esencial para profesionales de IT y administradores de sistemas.
 
 > :warning: Introducción generada por **ChatGPT** :warning:
 
-## Windows PowerShell vs PowerShell Core
+### Windows PowerShell vs PowerShell
+
+**Windows PowerShell** y **PowerShell** son dos [productos distintos](https://learn.microsoft.com/es-es/powershell/scripting/what-is-windows-powershell?view=powershell-7.4).
 
 **Windows PowerShell** es la implementación original de PowerShell lanzada por Microsoft junto con Windows 7 en **2009**. Está diseñada específicamente para entornos Windows y utiliza el marco **.NET Framework**. A lo largo de los años, Windows PowerShell se convirtió en una herramienta esencial para la administración de sistemas Windows, proporcionando una interfaz de línea de comandos y un entorno de scripting robusto para la automatización de tareas.
 
-Por otro lado, **PowerShell Core** es una versión posterior y más avanzada de PowerShell que fue lanzada en **2016**. La principal diferencia es que **PowerShell Core es multiplataforma**, lo que significa que puede ejecutarse no solo en sistemas operativos Windows, sino también en Linux y macOS. Además, PowerShell Core es de código abierto y se basa en el marco **.NET Core**.
+La versión más reciente es **Windows PowerShell 5.1**. Microsoft ya no actualiza Windows PowerShell con nuevas características. La compatibilidad con Windows PowerShell está vinculada a la versión de Windows que se utilice.
+
+Por otro lado, **PowerShell** es una versión posterior y más avanzada de PowerShell que fue lanzada en **2016**. La principal diferencia es que **PowerShell es multiplataforma**, lo que significa que puede ejecutarse no solo en sistemas operativos Windows, sino también en Linux y macOS. Además, PowerShell es de código abierto y se basa en el marco **.NET Core**.
 
 - **Ecosistema común**: ambas versiones comparten un conjunto básico de conceptos y cmdlets, lo que facilita la transición entre ellas. Sin embargo, hay algunas diferencias en los cmdlets y características específicas de cada versión.
 
-- **Compatibilidad**: aunque PowerShell Core es más versátil al ser multiplataforma, Windows PowerShell sigue siendo la opción predeterminada en entornos Windows tradicionales. Muchos scripts y comandos desarrollados en Windows PowerShell pueden ejecutarse en PowerShell Core, pero puede haber casos en los que se requieran ajustes debido a las diferencias de plataforma.
+- **Compatibilidad**: aunque PowerShell es más versátil al ser multiplataforma, Windows PowerShell sigue siendo la opción predeterminada en entornos Windows tradicionales. Muchos scripts y comandos desarrollados en Windows PowerShell pueden ejecutarse en PowerShell, pero puede haber casos en los que se requieran ajustes debido a las diferencias de plataforma.
 
-- **Desarrollo continuo**: Microsoft ha indicado que PowerShell Core es el camino a seguir y recibirá actualizaciones continuas, mientras que Windows PowerShell está en modo de mantenimiento. A medida que evoluciona el ecosistema, se alienta a los usuarios a adoptar PowerShell Core para aprovechar las nuevas características y mejoras.
+- **Desarrollo continuo**: Microsoft ha indicado que PowerShell es el camino a seguir y recibirá actualizaciones continuas, mientras que Windows PowerShell está en modo de mantenimiento. A medida que evoluciona el ecosistema, se alienta a los usuarios a adoptar PowerShell para aprovechar las nuevas características y mejoras.
 
-PowerShell Core representa la evolución de Windows PowerShell, siendo más versátil y adaptable a diferentes plataformas, mientras que Windows PowerShell sigue siendo relevante en entornos Windows más tradicionales.
+PowerShell representa la evolución de Windows PowerShell, siendo más versátil y adaptable a diferentes plataformas, mientras que Windows PowerShell sigue siendo relevante en entornos Windows más tradicionales.
+
+En la documentación oficial hay una guía más exhaustiva con las [diferencias entre Windows PowerShell 5.1 y PowerShell 7.x](https://learn.microsoft.com/es-es/powershell/scripting/whats-new/differences-from-windows-powershell?view=powershell-7.4)
 
 > :warning: Sección generada por **ChatGPT** :warning:
+
+### Shell de línea de comandos
+
+A diferencia de las interfaces tradicionales de línea de comandos que devuelven texto, PowerShell utiliza un enfoque basado en objetos, lo que significa que las salidas de los comandos son representadas como **objetos .NET estructurados** que pueden ser manipulados, filtrados y canalizados de manera intuitiva. Esto proporciona una gran flexibilidad y eficiencia al realizar tareas administrativas y permite una mayor automatización de procesos.
+
+- Un historial de línea de comandos sólido.
+
+- Finalización con tabulación y predicción de comandos (vea about_PSReadLine).
+
+- Admite alias de comando y parámetro.
+
+- Canalización para encadenar comandos.
+
+- Sistema de ayuda en la consola, similar a las páginas man de UNIX.
 
 ## Comandos básicos
 
@@ -307,8 +323,8 @@ Get-Process | Out-File -FilePath "processes.txt"
 # Envía la salida de los procesos a la pantalla.
 Get-Process | Out-Host
 
-# 10. Ver Resultados en una Vista Previa
-# Muestra la salida de los procesos una página a la vez.
+# 10. PAGINAR los resultados
+# Muestra la salida paginada de los procesos.
 Get-Process | More
 
 # 11. Uso de `$_` en Tuberías
@@ -1079,6 +1095,7 @@ Format-Range 2 6 # => 'a','b','g','f','e','d','c','h','i','j','k','l','m'
 ## Referencias
 
 - <https://learn.microsoft.com/es-es/powershell/>
+- :eyeglasses:<https://github.com/janikvonrotz/awesome-powershell>
 - <https://cheatsheets.zip/powershell>
 
 ## Licencia
